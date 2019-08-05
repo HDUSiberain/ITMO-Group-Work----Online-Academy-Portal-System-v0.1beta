@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login interface</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<div id="indexTop" class="banner">online academic portal</div>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery-3.4.1.js"></script>
+	<div id="login">
+	<h4 style="font-family:'alex-brush'">login</h4>
+		<br/>
+		<input type="text" name="id" id="uId" class="frame1" placeholder="&nbsp;&nbsp;user id">
+		<br/>
+	<input type="password" name="password" id="pwd" class="frame1" placeholder="&nbsp;&nbsp;password">
+		<br/>
+		<select class="frame1" name="identity" id="identity">
+			<option value="student">student</option>
+			<option value="teacher">teacher</option>
+			<option value="admin">administrator</option>
+		</select>
+		<br><br>
+		<button class="frame1" id="button1" onClick="run()">log in</button>
+		<script type="text/javascript">
+			function run(){
+				var formObject = {};
+				formObject.id = $("#uId").val();
+				formObject.password = $("#pwd").val();
+				formObject.identity = $("#identity").val(); 
+				$.ajax({
+					url:"http://localhost:8080/user/login",
+					type:"post",
+					data: "id=" + formObject.id + "&password=" + formObject.password + "&identity=" + formObject.identity,
+					//contentType: "application/json; charset=utf-8",
+					//data: JSON.stringify(formObject),
+					dataType: "json",
+					success:function(data){
+						if(data.uid == $("#uId").val()){
+
+							alert("log in successfully!");
+							//window.location.href="p1_1.html?"+"txt="+encodeURI(id);
+							window.location.href="p1.html?"+"txt="+formObject.id;
+						}
+						else{
+							console.log(data);
+							alert("input error!!");
+						}
+					},
+					error:function(e){
+						console.log(formObject);
+						alert("false！！");
+					}
+				});
+			};
+			
+		</script>
+	
+	</div><!--id="login"-->
+	
+	<div id="indexBottom" class="banner">HANGZHOU DIANZI UNIVERSITY</div>
+	</body>
+</html>

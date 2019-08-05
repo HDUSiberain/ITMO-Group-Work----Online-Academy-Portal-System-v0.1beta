@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>modify the password</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/p2_1.css">
+</head>
+
+<body>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<div class="common">
+
+		<div class="top">
+			
+		<div class="left">
+		<img src="img/logo.jpg" alt="fault" width=" 30px" height="30px">
+		&nbsp;&nbsp;Online Academic Portal
+		</div><!--class="left"-->
+			
+		<div class="right">
+		student&nbsp;&nbsp;&nbsp;
+		<a href="index.html">
+		<img src="img/exit.png" alt="fault" width="30px" height="30px">
+		exit</a>
+		</div><!--class="right"-->
+			
+	</div><!--class="top"-->
+		
+	<div class="left1">
+	
+	<div class="account">
+		<h1>
+		<img src="img/yifei1.jpg" alt="fault">
+		<span class="title">STUDENT</span>
+		</h1>
+		<button class="nav" onClick="run2()">name</button>
+		<script type="text/javascript">
+		function run2(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p1.html?"+"txt="+id;
+			};
+	</script>		
+		<button class="nav" id="special" onClick="window.loation.reload(true)">personal information</button>
+		
+		</div><!--class="account"-->
+		
+		<hr/>
+		
+	<div class="homework">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">HOMEWORK</span>
+		</h1>
+		<script type="text/javascript">
+		function run3(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p3.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run3()">Job Submission</button>
+		<script type="text/javascript">
+		function run4(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p4.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run4()">Result Inquiry</button>
+		</div><!--class="homework"-->
+		
+		<hr/>
+		
+	<div class="imfor">
+		<h1>
+			<img src="img/phone.png" alt="fault">
+		<span class="title">INFORMATION</span>
+		</h1>
+		<script type="text/javascript">
+		function run5(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p2.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run5()">Reception</button>
+		</div><!--class="imfor"-->
+		
+		<hr/>
+		
+	<div class="group">
+		<h1>
+			<img src="img/group.png" alt="fault">
+			<span class="title">GROUP</span>
+		</h1>
+		<script type="text/javascript">
+		function run6(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p6.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run6()">Discussion</button>
+		</div><!--class="group"-->
+		
+		<hr/>
+		
+	<div class="course">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">Course</span>
+		</h1>
+		<script type="text/javascript">
+		function run7(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p1.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run7()">My courses</button>
+		<script type="text/javascript">
+		function run8(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p8.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run8()">Elective course</button>
+		</div><!--class="course"-->
+		
+	</div><!--class="left1"-->
+	</div><!--class="common"-->
+	
+	<div class="main">
+		
+	<div class ="search">
+		<img src="img/search.png" alt="fault" width=" 20px" height="20px">
+		&nbsp;&nbsp;
+		<span>
+		<input type="text">
+		</span>
+		&nbsp;&nbsp;
+		<button class="button">search</button>
+		</div><!--id="search"-->
+		
+		<div class="all">
+		<div class="top1">
+			<script type="text/javascript">
+		function run27(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p1.html?"+"txt="+id;
+			};
+	</script>
+			<img src="img/return.png" alt="fault" width=" 20px" height="20px" onClick="run27()">
+			personal information
+			</div>
+		<div class="bottom1">
+			<div id="cen">
+				<br><br><br>
+					<table border="1px" cellspacing="0" style="border-color: #BBBBBB;margin: auto;">
+					<col style="text-align:center;" width="130px">
+					<col style="background-color: rgba(255,255,255,1.00);" width="250px">
+					<tr height="35px">
+						<td>&nbsp;&nbsp;old password</td>
+						<td>&nbsp;&nbsp;<input type="password" id="opwd" placeholder="&nbsp;&nbsp;old password"></td>
+					</tr>
+					<tr height="35px">
+						<td>&nbsp;&nbsp;new password</td>
+						<td>&nbsp;&nbsp;<input type="password" id="npwd1" placeholder="&nbsp;&nbsp;new password"></td>
+					</tr>
+					<tr height="35px">
+						<td>&nbsp;&nbsp;new again</td>
+						<td>&nbsp;&nbsp;<input type="password" id="npwd2" placeholder="&nbsp;&nbsp;new password"></td>
+					</tr>
+					</table>
+				
+				<br>
+					<script type="text/javascript">
+					function run28(){
+	/*Post请求
+		形如：http://localhost:8080/user/pwdchange?id=17051111&oldPassword=123456&newPassword=12345678
+		返回结果{    "uname": "CHI CHEN",     "uemail": "1466035494@qq.com",     "usex": "male",     "uid": "17051111",     "uidentity": "student",     "upw": "12345678" }
+	*/
+						var formObject = {};
+						var loc = window.location.href;
+						var n1 = loc.length;//地址的总长度
+						var n2 = loc.indexOf("=");//取得=号的位置
+						formObject.id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+						formObject.oldpwd = $("#opwd").val();
+						var newpwd1 = $("#npwd1").val();
+						var newpwd2 = $("#npwd2").val();
+						if(newpwd1 !== newpwd2){
+							alert("input error, the new password you entered is not the same! ");
+						}else{
+							formObject.npwd = newpwd1;
+							$.ajax({
+							url:"http://localhost:8080/user/pwdchange",
+							type:"post",
+							data: "id=" + formObject.id + "&oldPassword=" + formObject.oldpwd+"&newPassword="+formObject.npwd,
+							//contentType: "application/json; charset=utf-8",
+							//data: JSON.stringify(formObject),
+							dataType: "json",
+							success:function(data){
+									alert("password change successful!!!");
+									window.location.href="p2.html?" + "txt=" + formObject.id;
+							},
+							error:function(e){
+								console.log(formObject);
+								alert("false , Please check old password correct or not! ");
+							}
+						});
+						}
+						
+					};
+			
+				</script>
+				<p><button id="button" onClick="run28()">modify</button></p>
+			</div><!--id="cen"-->
+			</div><!--id="bottom"-->
+		</div><!--id="all"-->
+		
+		
+	</div><!--id="main"-->
+</body>
+</html>

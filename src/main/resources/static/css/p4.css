@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.all .bottom1 .a1{
+	margin-top: 20px;
+	width: 950px;
+	height: 130px;
+}
+
+.all .bottom1 .a1 .left3{
+	float: left;
+	margin-left: 20px;
+}
+
+.all .bottom1 .a1 .right3{
+	float: left;
+	margin-left: 30px;
+}
+
+.all .bottom1 .a2{
+	clear: both;
+	margin:0px auto;
+	width: 760px;
+	height: 260px;
+	padding: 10px;
+	border: 1px solid #BBBBBB;
+	font-size: 14px;
+}

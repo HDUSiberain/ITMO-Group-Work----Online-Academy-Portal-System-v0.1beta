@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cen{
+	background-color: #DFDFDF;
+	height: 400px;
+	width:inherit;
+	margin: 20px auto;
+	font-size:16px;
+}
+#cen button{
+	width: 160px;
+	height: 35px;
+	margin: 10px 330px;
+}

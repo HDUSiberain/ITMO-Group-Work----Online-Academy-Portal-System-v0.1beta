@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.all .course1{
+	float: left;
+	margin: 30px;
+	width:150px;
+	height:110px;
+	padding-top: 40px;
+	background-color: #E0E0E0;
+	border-radius: 100%;
+	text-align: center;
+}
+

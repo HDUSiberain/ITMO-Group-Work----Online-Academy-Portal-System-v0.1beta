@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Software engineering principle</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/p1_common.css">
+</head>
+
+<body>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<div class="common">
+
+		<div class="top">
+			
+		<div class="left">
+		<img src="img/logo.jpg" alt="fault" width=" 30px" height="30px">
+		&nbsp;&nbsp;Online Academic Portal
+		</div><!--class="left"-->
+			
+		<div class="right">
+		student&nbsp;&nbsp;&nbsp;
+		<a href="index.html">
+		<img src="img/exit.png" alt="fault" width="30px" height="30px">
+		exit</a>
+		</div><!--class="right"-->
+			
+	</div><!--class="top"-->
+		
+	<div class="left1">
+	
+	<div class="account">
+		<h1>
+		<img src="img/yifei1.jpg" alt="fault">
+		<span class="title">STUDENT</span>
+		</h1>
+		<button class="nav" id="special" onClick="window.loation.reload(true)">name</button>
+		<script type="text/javascript">
+		function run2(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p2.html?"+"txt="+encodeURI(id);
+			};
+	</script>		
+		<button class="nav" onClick="run2()">personal information</button>
+		
+		</div><!--class="account"-->
+		
+		<hr/>
+		
+	<div class="homework">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">HOMEWORK</span>
+		</h1>
+		<script type="text/javascript">
+		function run3(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p3.html?"+"txt="+encodeURI(id);
+			};
+	</script>
+		<button class="nav" onClick="run3()">Job Submission</button>
+		<script type="text/javascript">
+		function run4(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p4.html?"+"txt="+encodeURI(id);
+			};
+	</script>
+		<button class="nav" onClick="run4()">Result Inquiry</button>
+		</div><!--class="homework"-->
+		
+		<hr/>
+		
+	<div class="imfor">
+		<h1>
+			<img src="img/phone.png" alt="fault">
+		<span class="title">INFORMATION</span>
+		</h1>
+		<script type="text/javascript">
+		function run5(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p2.html?"+"txt="+encodeURI(id);
+			};
+	</script>
+		<button class="nav" onClick="run5()">Reception</button>
+		</div><!--class="imfor"-->
+		
+		<hr/>
+		
+	<div class="group">
+		<h1>
+			<img src="img/group.png" alt="fault">
+			<span class="title">GROUP</span>
+		</h1>
+		<script type="text/javascript">
+		function run6(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p6.html?"+"txt="+encodeURI(id);
+			};
+	</script>
+		<button class="nav" onClick="run6()">Discussion</button>
+		</div><!--class="group"-->
+		
+		<hr/>
+		
+	<div class="course">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">Course</span>
+		</h1>
+		<script type="text/javascript">
+		function run7(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p7.html?"+"txt="+encodeURI(id);
+			};
+	</script>
+		<button class="nav" onClick="run7()">My courses</button>
+		<script type="text/javascript">
+		function run8(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p8.html?"+"txt="+encodeURI(id);
+			};
+	</script>
+		<button class="nav" onClick="run8()">Elective course</button>
+		</div><!--class="course"-->
+		
+	</div><!--class="left1"-->
+	</div><!--class="common"-->
+	
+	<div class="main">
+		
+	<div class="search">
+		<img src="img/search.png" alt="fault" width=" 20px" height="20px">
+		&nbsp;&nbsp;
+		<span>
+		<input type="text">
+		</span>
+		&nbsp;&nbsp;
+		<button class="button">search</button>
+		</div><!--class="search"-->
+		
+		<div class="all">
+		<div class="top1">
+			<a href="p7.html"><img src="img/return.png" alt="fault" width=" 20px" height="20px"></a>
+			Computer science basics
+		</div><!--class="top1"-->
+			
+		<div class="bottom1">
+			
+			<div class="a1">
+				<div class="left3">
+					<img src="img/CSB.jpg" alt="fault" width="95px" height="119px" style="border: 2px solid #A19D9D">
+					
+				</div><!--id="left3"-->
+				<div id="right1">
+					<h1>Computer science basics</h1>
+					<br/>
+					The teacher:name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="p3_1.html"><button>Job Submission</button></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="p4.html"><button>Result Inquiry</button></a>
+				</div><!--id="right1"-->
+			</div><!--class="a1"-->
+			<div class="a2">
+				<span style="background-color:#EB5056;color: white;">&nbsp;&nbsp;Introduction&nbsp;&nbsp;</span>
+				
+				
+			</div>
+			
+			
+			
+		</div><!--class="bottom1"-->
+		</div><!--class="all"-->
+		
+		
+	</div><!--class="main"-->
+</body>
+</html>

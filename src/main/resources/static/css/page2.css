@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+#main_interface{
+		text-align: center;
+		float:left;
+		width:900px;
+		height: 800px;		
+	}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.dialogBoxLeft{
+	clear: both;
+	float: left;
+	margin-top: 15px;
+}
+
+.dialogBoxRight{
+	clear: both;
+	float: right;
+	margin-bottom: 15px;
+}
+.dialogBoxRight .top3{
+	text-align: right;
+	margin-bottom: 15px;
+}
+.bottom1 img{
+	border-radius: 100%;
+}
+.bottom3{
+	height: 30px;
+	line-height: 30px;
+	width: 250px;
+	text-align: center;
+	background-color: #E0E0E0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.inputBox{
+	clear: both;
+	margin: 5px auto;
+}
+
+.inputBox input{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #F55D54;
+	color: #FFFFFF;
+}
+

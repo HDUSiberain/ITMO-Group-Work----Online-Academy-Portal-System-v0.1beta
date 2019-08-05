@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>delete the selected course</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/p8_1.css">
+</head>
+
+<body>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<div class="common">
+
+		<div class="top">
+			
+		<div class="left">
+		<img src="img/logo.jpg" alt="fault" width=" 30px" height="30px">
+		&nbsp;&nbsp;Online Academic Portal
+		</div><!--class="left"-->
+			
+		<div class="right">
+		student&nbsp;&nbsp;&nbsp;
+		<a href="index.html">
+		<img src="img/exit.png" alt="fault" width="30px" height="30px">
+		exit</a>
+		</div><!--class="right"-->
+			
+	</div><!--class="top"-->
+		
+	<div class="left1">
+	
+	<div class="account">
+		<h1>
+		<img src="img/yifei1.jpg" alt="fault">
+		<span class="title">STUDENT</span>
+		</h1>
+		<button class="nav" onClick="run8()">name</button>
+		<script type="text/javascript">
+		function run2(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p2.html?"+"txt="+id;
+			};
+	</script>		
+		<button class="nav" onClick="run2()">personal information</button>
+		
+		</div><!--class="account"-->
+		
+		<hr/>
+		
+	<div class="homework">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">HOMEWORK</span>
+		</h1>
+		<script type="text/javascript">
+		function run3(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p3.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run3()">Job Submission</button>
+		<script type="text/javascript">
+		function run4(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p4.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run4()">Result Inquiry</button>
+		</div><!--class="homework"-->
+		
+		<hr/>
+		
+	<div class="imfor">
+		<h1>
+			<img src="img/phone.png" alt="fault">
+		<span class="title">INFORMATION</span>
+		</h1>
+		<script type="text/javascript">
+		function run5(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p2.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run5()">Reception</button>
+		</div><!--class="imfor"-->
+		
+		<hr/>
+		
+	<div class="group">
+		<h1>
+			<img src="img/group.png" alt="fault">
+			<span class="title">GROUP</span>
+		</h1>
+		<script type="text/javascript">
+		function run6(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p6.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run6()">Discussion</button>
+		</div><!--class="group"-->
+		
+		<hr/>
+		
+	<div class="course">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">Course</span>
+		</h1>
+		<script type="text/javascript">
+		function run7(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p1.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run7()">My courses</button>
+		<script type="text/javascript">
+		function run8(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p1.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" id="special" onClick="window.loation.reload(true)">Elective course</button>
+		</div><!--class="course"-->
+		
+	</div><!--class="left1"-->
+	</div><!--class="common"-->
+	<div class="main">
+		
+	<div class="search">
+		<img src="img/search.png" alt="fault" width=" 20px" height="20px">
+		&nbsp;&nbsp;
+		<span>
+		<input type="text">
+		</span>
+		&nbsp;&nbsp;
+		<button class="button">search</button>
+		</div><!--id="search"-->
+		
+		<div class="all">
+		<div class="top1">
+			&nbsp;&nbsp;
+			<img src="img/return.png" alt="fault" width=" 20px" height="20px" onClick="run80()">
+			<script type="text/javascript">
+		function run80(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+				window.location.href="p8.html?"+"txt="+id;
+			};
+	</script>
+			Selected courses list
+			</div>
+		<script type="text/javascript">
+		function run81(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+			$.ajax({
+					url:"http://localhost:8080/courseclass/allchooseclassinfo",
+					type:"get",
+					contentType: "application/form; charset=utf-8",
+					data: "id="+id,
+					dataType: "json",
+					success:function(data){
+							//alert("success");
+							for(j=0 ; j<=data.length ; j++){
+									$("#cou"+j).html(data[j].cname);
+									$("#cid"+j).html(data[j].cid);
+									$("#teaName"+j).html(data[j].uname);
+									$("#ccid"+j).html(data[j].ccid);
+									$("#stuNum"+j).html(data[j].ccnum);
+									$("#maxNum"+j).html(data[j].ccnum_MAX);
+							}
+					},
+					error:function(e){
+						alert("false！！");
+					}
+				});
+			};
+			run81();
+	</script>
+		<div class="bottom1">
+			<table border="1px" cellspacing="0">
+				<tr height="30px">
+					<td width="260px">course name</td>
+					<td width="110px">course ID</td>
+					<td width="130px">teacher</td>
+					<td width="130px">course classID</td>
+					<td width="130px">students num</td>
+					<td width="110px">max_num</td>
+					<td width="60px"></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou0"></td>
+					<td width="110px" id="cid0"></td>
+					<td width="130px" id="teaName0"></td>
+					<td width="130px" id="ccid0"></td>
+					<td width="130px" id="stuNum0"></td>
+					<td width="110px" id="maxNum0"></td>
+					<td width="60px"><button id="delete0" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou1"></td>
+					<td width="110px" id="cid1"></td>
+					<td width="130px" id="teaName1"></td>
+					<td width="130px" id="ccid1"></td>
+					<td width="130px" id="stuNum1"></td>
+					<td width="110px" id="maxNum1"></td>
+					<td width="60px"><button id="delete1" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou2"></td>
+					<td width="110px" id="cid2"></td>
+					<td width="130px" id="teaName2"></td>
+					<td width="130px" id="ccid2"></td>
+					<td width="130px" id="stuNum2"></td>
+					<td width="110px" id="maxNum2"></td>
+					<td width="60px"><button id="delete2" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou3"></td>
+					<td width="110px" id="cid3"></td>
+					<td width="130px" id="teaName3"></td>
+					<td width="130px" id="ccid3"></td>
+					<td width="130px" id="stuNum3"></td>
+					<td width="110px" id="maxNum3"></td>
+					<td width="60px"><button id="delete3" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou4"></td>
+					<td width="110px" id="cid4"></td>
+					<td width="130px" id="teaName4"></td>
+					<td width="130px" id="ccid4"></td>
+					<td width="130px" id="stuNum4"></td>
+					<td width="110px" id="maxNum4"></td>
+					<td width="60px"><button id="delete4" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou5"></td>
+					<td width="110px" id="cid5"></td>
+					<td width="130px" id="teaName5"></td>
+					<td width="130px" id="ccid5"></td>
+					<td width="130px" id="stuNum5"></td>
+					<td width="110px" id="maxNum5"></td>
+					<td width="60px"><button id="delete5" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou6"></td>
+					<td width="110px" id="cid6"></td>
+					<td width="130px" id="teaName6"></td>
+					<td width="130px" id="ccid6"></td>
+					<td width="130px" id="stuNum6"></td>
+					<td width="110px" id="maxNum6"></td>
+					<td width="60px"><button id="delete6" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou7"></td>
+					<td width="110px" id="cid7"></td>
+					<td width="130px" id="teaName7"></td>
+					<td width="130px" id="ccid7"></td>
+					<td width="130px" id="stuNum7"></td>
+					<td width="110px" id="maxNum7"></td>
+					<td width="60px"><button id="delete7" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou8"></td>
+					<td width="110px" id="cid8"></td>
+					<td width="130px" id="teaName8"></td>
+					<td width="130px" id="ccid8"></td>
+					<td width="130px" id="stuNum8"></td>
+					<td width="110px" id="maxNum8"></td>
+					<td width="60px"><button id="delete8" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou9"></td>
+					<td width="110px" id="cid9"></td>
+					<td width="130px" id="teaName9"></td>
+					<td width="130px" id="ccid9"></td>
+					<td width="130px" id="stuNum9"></td>
+					<td width="110px" id="maxNum9"></td>
+					<td width="60px"><button id="delete9" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou10"></td>
+					<td width="110px" id="cid10"></td>
+					<td width="130px" id="teaName10"></td>
+					<td width="130px" id="ccid10"></td>
+					<td width="130px" id="stuNum10"></td>
+					<td width="110px" id="maxNum10"></td>
+					<td width="60px"><button id="delete10" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou11"></td>
+					<td width="110px" id="cid11"></td>
+					<td width="130px" id="teaName11"></td>
+					<td width="130px" id="ccid11"></td>
+					<td width="130px" id="stuNum11"></td>
+					<td width="110px" id="maxNum11"></td>
+					<td width="60px"><button id="delete11" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>
+				<tr height="30px">
+					<td width="260px" id="cou12"></td>
+					<td width="110px" id="cid12"></td>
+					<td width="130px" id="teaName12"></td>
+					<td width="130px" id="ccid12"></td>
+					<td width="130px" id="stuNum12"></td>
+					<td width="110px" id="maxNum12"></td>
+					<td width="60px"><button id="delete12" class="delete8" onClick="delete81(this)">delete</button></td>
+				</tr>	
+			</table>
+			<script type="text/javascript">
+				function delete81(obj){
+					var formObject ={};
+					/*studentId=17051111&courseClassId=5*/
+					var buttonId = obj.id;
+					formObject.ccid ="ccid" + buttonId.replace(/[^0-9]/ig,"");
+					var loc = window.location.href;
+					var n1 = loc.length;//地址的总长度
+					var n2 = loc.indexOf("=");//取得=号的位置
+					formObject.id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+					$.ajax({
+						url:"http://localhost:8080/classchoose/withdrawal",
+						type:"GET",
+						contentType: "application/form; charset=utf-8",
+						data: "studentId="+formObject.id+"&courseClassId="+$("#"+formObject.ccid).html(),
+						dataType: "json",
+						success:function(data){
+							alert("Course withdrawal successful!");
+							window.location.href="p8_1.html?"+"txt="+formObject.id;
+						},
+						error:function(e){
+							alert("Course withdrawal successful!");
+							window.location.href="p8_1.html?"+"txt="+formObject.id;	
+						}
+					});
+			};
+			</script>
+			</div><!--id="bottom"-->
+		</div><!--id="all"-->
+		
+		
+	</div><!--id="main"-->
+</body>
+</html>

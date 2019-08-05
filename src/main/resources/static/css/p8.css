@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bottom1 .radio1{
+	float: right;
+}
+.bottom1 table{
+	line-height: 30px;
+	text-align: center;
+	font-size: 17px;
+	margin: auto;
+}
+.all .bottom1{
+	margin: auto;
+	padding: 5px;
+	width: 970px!important;
+}

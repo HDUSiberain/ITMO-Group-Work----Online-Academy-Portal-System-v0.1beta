@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Computer science basics</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/p1_common.css">
+</head>
+
+<body>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<div class="common">
+
+		<div class="top">
+			
+		<div class="left">
+		<img src="img/logo.jpg" alt="fault" width=" 30px" height="30px">
+		&nbsp;&nbsp;Online Academic Portal
+		</div><!--class="left"-->
+			
+		<div class="right">
+		student&nbsp;&nbsp;&nbsp;
+		<a href="index.html">
+		<img src="img/exit.png" alt="fault" width="30px" height="30px">
+		exit</a>
+		</div><!--class="right"-->
+			
+	</div><!--class="top"-->
+		
+	<div class="left1">
+	
+	<div class="account">
+		<h1>
+		<img src="img/yifei1.jpg" alt="fault">
+		<span class="title">STUDENT</span>
+		</h1>
+		<button class="nav" id="special" onClick="window.loation.reload(true)">name</button>
+		<script type="text/javascript">
+		function run2(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+				var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p2.html?"+"txt="+id;
+			};
+	</script>		
+		<button class="nav" onClick="run2()">personal information</button>
+		
+		</div><!--class="account"-->
+		
+		<hr/>
+		
+	<div class="homework">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">HOMEWORK</span>
+		</h1>
+		<script type="text/javascript">
+		function run3(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+				var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p3.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run3()">Job Submission</button>
+		<script type="text/javascript">
+		function run4(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+				var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p4.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run4()">Result Inquiry</button>
+		</div><!--class="homework"-->
+		
+		<hr/>
+		
+	<div class="imfor">
+		<h1>
+			<img src="img/phone.png" alt="fault">
+		<span class="title">INFORMATION</span>
+		</h1>
+		<script type="text/javascript">
+		function run5(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+				var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p2.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run5()">Reception</button>
+		</div><!--class="imfor"-->
+		
+		<hr/>
+		
+	<div class="group">
+		<h1>
+			<img src="img/group.png" alt="fault">
+			<span class="title">GROUP</span>
+		</h1>
+		<script type="text/javascript">
+		function run6(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+				var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p6.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run6()">Discussion</button>
+		</div><!--class="group"-->
+		
+		<hr/>
+		
+	<div class="course">
+		<h1>
+			<img src="img/list.png" alt="fault">
+			<span class="title">Course</span>
+		</h1>
+		<script type="text/javascript">
+		function run7(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+				var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p1.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run7()">My courses</button>
+		<script type="text/javascript">
+		function run8(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+				var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p8.html?"+"txt="+id;
+			};
+	</script>
+		<button class="nav" onClick="run8()">Elective course</button>
+		</div><!--class="course"-->
+		
+	</div><!--class="left1"-->
+	</div><!--class="common"-->
+	
+	<div class="main">
+		
+	<div class="search">
+		<img src="img/search.png" alt="fault" width=" 20px" height="20px">
+		&nbsp;&nbsp;
+		<span>
+		<input type="text">
+		</span>
+		&nbsp;&nbsp;
+		<button class="button">search</button>
+		</div><!--class="search"-->
+		
+		<div class="all">
+		<div class="top1">
+			<img src="img/return.png" alt="fault" width=" 20px" height="20px" onClick="run80()">
+			<script type="text/javascript">
+		function run80(){
+				var loc = window.location.href;
+			    var n1 = loc.length;//地址的总长度
+			    var n2 = loc.indexOf("=");//取得=号的位置
+			    var n3 = loc.indexOf("&");//取得&号的位置
+			    var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+				var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+				window.location.href="p1.html?"+"txt="+id;
+			};
+	</script>
+			Computer science basics
+		</div><!--class="top1"-->
+			
+		<div class="bottom1">
+			
+			<div class="a1">
+				<script type="text/javascript">
+					function run111(){
+						var loc = window.location.href;
+						var formObject = {};
+						var n1 = loc.length;//地址的总长度
+						var n2 = loc.indexOf("=");//取得=号的位置
+						var n3 = loc.indexOf("&");//取得&号的位置
+						formObject.id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+						formObject.courseName = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+						$.ajax({
+							url:"http://localhost:8080/courseclass/classsimpleinfo",
+							/*http://localhost:8080/courseclass/classsimpleinfo?id=17051111&courseName=Programing*/
+							type:"get",
+							contentType: "application/form; charset=utf-8",
+							data: "id="+formObject.id+"&courseName="+formObject.courseName,
+							dataType: "json",
+							success:function(data){
+								/*比较收到的课程名称和我发过去的是否相同*/
+									//alert("success");
+									$("#right1 h1").html(data.cname);
+									$(".teaName").html(data.uname);	
+									switch(data.cname){
+										case "Computer science basics":
+											$("#introductionText").html("This course systematically introduces the basic composition principles and internal working mechanisms of computers. The course is divided into 8 parts, the main content is divided into two parts: the first part and the second part introduce the basic knowledge of the computer; the third part of the computer introduces the subsystems of the computer (including the arithmetic unit, memory, controller, external device) The basic composition principle, design method, mutual relationship and the interconnection of subsystems with the input and output subsystems constitute the technology of the whole system.");
+											break;
+										case "Software engineering principle":
+											$("#introductionText").html("This course introduces the concepts and methods involved in the standardized software development method from the shallower to the deeper. The content includes process model, software requirements, design engineering, productivity and workload measurement, software testing, software maintenance, quality management, project management and risk management. Finally, some common software development tools are introduced, and the coding style is given. Advice");
+											break;
+										case "Programing":
+											$("#introductionText").html("This course uses Java language to explain object-oriented program development methods. The course consists of 15 lessons, including: Java programming environment; Java composition; expressions, statements and operators; program flow control mechanisms; arrays; methods; classes and objects; Java application programming interface (API); input and output; File control; single class inheritance; encapsulation; polymorphism; abstraction; sorting, searching, and recursion");
+											break;
+										case "Cloud computing":
+											$("#introductionText").html("Cloud computing is a kind of distributed computing. It refers to the decomposition of huge data calculation processing programs into countless small programs through the network \"cloud\". Then, through the system composed of multiple servers, processing and analyzing these small programs to obtain the results. And return to the user. With this technology, tens of thousands of data can be processed in a short period of time (a few seconds) to achieve powerful network services.");
+											break;
+										case "advanced mathematics":
+											$("#introductionText").html("Broadly speaking, mathematics other than elementary mathematics is advanced mathematics, and there are also advanced algebra, geometry, and simple set theory in the middle school. The logic is initially called middle mathematics, which is regarded as elementary mathematics and university in primary and middle school. The transition of advanced mathematics in the stage.It is generally believed that advanced mathematics is a basic discipline formed by calculus, deeper algebra, geometry, and the intersection between them.The main contents include: series, limits, calculus, spatial analytic geometry and linear algebra, series, ordinary differential equations.");
+											break;
+										case "Principle of Compiler":
+											$("#introductionText").html("Compilation principle is an important professional course of computer science, which aims to introduce the general principles and basic methods of compiler construction. Content includes language and grammar, lexical analysis, grammar analysis, grammar-guided translation, intermediate code generation, storage management, code optimization, and object code generation. Compilation principle is an important professional course set up by computer majors. Although only a few people are engaged in the work of compiling, this course provides systematic and effective training for students in theory, technology and method, which is conducive to improving the quality and ability of software personnel.");
+											break;
+										case "Linear algebra":
+											$("#introductionText").html("Linear algebra is a branch of mathematics. Its research objects are vectors, vector spaces (or linear spaces), linear transformations and linear systems of finite dimensions. Vector space is an important topic in modern mathematics; therefore, linear algebra is widely used in abstract algebra and functional analysis; by analytic geometry, linear algebra can be specifically represented. The theory of linear algebra has been generalized to operator theory. Since nonlinear models in scientific research can usually be approximated as linear models, linear algebra is widely used in the natural sciences and social sciences.");
+											break;
+										case "college physics":
+											$("#introductionText").html("The university physics systematically expounds the basic laws and basic concepts of physics. The main contents include: force and motion, momentum, work and energy, rigid body rotation, mechanical vibration and fluctuation, gas molecular dynamics theory, thermodynamic basis, electrostatic field in vacuum, conductor and dielectric in electrostatic field, constant current magnetic field, Electromagnetic induction, wave optics, special relativity and quantum physics");
+											break;
+										}
+							},						
+							error:function(e){
+								console.log(formObject);
+								alert("false！！");
+							}
+						});
+					};
+							   run111();
+		</script>
+<!--				
+	"cname": "Software engineering principle",——课程名称
+	"uname": "Mr.Huang",——课程老师的名字
+	"ccnum": 1,——该班人数
+	"ccnum_MAX": 40,——课程容量
+	"ccid": "2",——课程班级id
+	"cid": "2"——课程id
+-->
+				<div class="left3">
+					<img src="img/CSB.jpg" alt="fault" width="95px" height="119px" style="border: 2px solid #A19D9D">
+					
+				</div><!--id="left3"-->
+				<div id="right1">
+					<h1>××××</h1>
+					<br/>
+					The teacher:<span class="teaName">××××</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<script type="text/javascript">
+					function run31(){
+							var loc = window.location.href;
+							var n1 = loc.length;//地址的总长度
+							var n2 = loc.indexOf("=");//取得=号的位置
+							var n3 = loc.indexOf("&");//取得&号的位置
+							var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+							var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+							window.location.href="p3_1.html?"+"txt="+id;
+						};
+					function run32(){
+							var loc = window.location.href;
+							var n1 = loc.length;//地址的总长度
+							var n2 = loc.indexOf("=");//取得=号的位置
+							var n3 = loc.indexOf("&");//取得&号的位置
+							var id = decodeURI(loc.substr(n2+1, n3-n2-1));//从=号后面的内容
+							var coursename = decodeURI(loc.substr(n3+1,n1-n3));//从&号后面的内容
+							window.location.href="p3_2.html?"+"txt="+id;
+						};
+					</script>
+					<button onClick="run31()">Job Submission</button>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<button onClick="run32()">Result Inquiry</button>
+				</div><!--id="right1"-->
+			</div><!--class="a1"-->
+			<div class="a2">
+				<span style="background-color:#EB5056;color: white;">&nbsp;&nbsp;Introduction&nbsp;&nbsp;</span>
+				<p id="introductionText"></p>
+				
+			</div>
+			
+			
+			
+		</div><!--class="bottom1"-->
+		</div><!--class="all"-->
+		
+		
+	</div><!--class="main"-->
+	
+</body>
+</html>
